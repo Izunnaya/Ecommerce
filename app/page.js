@@ -1,13 +1,19 @@
 import React from "react";
 
-import { Herobanner, Categories, ProductCard } from "./components";
+import { Herobanner, Categories, ProductCard, Footer } from "./components";
 
-const page = () => {
+const HomePage = () => {
   return (
     <div>
       <Herobanner />
+      <Categories />
+      <div>
+        <h1 className="text-4xl">Product Overview </h1>
+        <ProductCard />
+        <Footer />
+      </div>
     </div>
   );
 };
 
-export default page;
+export default HomePage;
