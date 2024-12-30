@@ -11,11 +11,11 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className=" bg-black p-2 px-2 md:p-3 sticky w-full top-0 left-0 z-10">
+    <nav className=" bg-black text-white p-2 px-2 md:p-3 fixed w-full top-0 left-0 z-10">
       <div className=" flex__between w-full md:max-w-[1024px] lg:max-w-[1320px] mx-auto">
         <div className="cursor-pointer">
           <Link href={"/"} className="font-bold md:text-2xl">
-            TSWAGS STORE
+            TSWAGS <span className="md:pl-3 pl-2">STORE</span>
           </Link>
         </div>
         <ul className="hidden md:flex justify-center items-center gap-3 text-[1.12rem] cursor-pointer">
