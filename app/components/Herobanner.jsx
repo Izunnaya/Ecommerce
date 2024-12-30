@@ -1,7 +1,7 @@
 import React from "react";
 
 const Herobanner = () => {
-  return <div>Herobanner</div>;
+  return <div className="">Herobanner</div>;
 };
 
 export default Herobanner;

@@ -4,7 +4,7 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="font-serif">
         <Navbar />
         {children}
       </body>

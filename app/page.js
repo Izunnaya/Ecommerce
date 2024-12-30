@@ -4,7 +4,7 @@ import { Herobanner, Categories, ProductCard, Footer } from "./components";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-slate-200 h-screen w-full text-black">
       <Herobanner />
       <Categories />
       <div>

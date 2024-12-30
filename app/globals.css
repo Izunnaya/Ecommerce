@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.flex__center {
+  @apply flex justify-center items-center;
+}
+
+.flex__between {
+  @apply flex justify-between items-center;
+}
+
+.onHover__links {
+  @apply hover:text-blue-500 transition-all duration-300;
+}
