@@ -12,7 +12,7 @@ const navLinks = [
 const Navbar = () => {
   return (
     <nav className=" bg-black text-white p-2 px-2 md:p-3 fixed w-full top-0 left-0 z-10">
-      <div className=" flex__between w-full md:max-w-[1024px] lg:max-w-[1320px] mx-auto">
+      <div className=" flex__between container">
         <div className="cursor-pointer">
           <Link href={"/"} className="font-bold md:text-2xl">
             TSWAGS <span className="md:pl-3 pl-2">STORE</span>

@@ -27,3 +27,7 @@
 .shopnow__button {
   @apply text-white md:text-2xl font-bold border rounded-lg py-2 px-4 md:py-3 md:px-6 mt-6 md:mt-9 hover:bg-purple-500/40 transition-all duration-200;
 }
+
+.container {
+  @apply w-full md:max-w-[1024px] lg:max-w-[1320px] mx-auto;
+}
