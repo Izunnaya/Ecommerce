@@ -9,6 +9,9 @@ const navLinks = [
   { name: "Contact", path: "#contact" },
 ];
 
+const LinkStyles =
+  "hidden md:flex justify-center items-center gap-3 text-[1.12rem] cursor-pointer";
+
 const Navbar = () => {
   return (
     <nav className=" bg-black text-white p-2 px-2 md:p-3 fixed w-full top-0 left-0 z-10">
@@ -18,7 +21,7 @@ const Navbar = () => {
             TSWAGS <span className="md:pl-3 pl-2">STORE</span>
           </Link>
         </div>
-        <ul className="hidden md:flex justify-center items-center gap-3 text-[1.12rem] cursor-pointer">
+        <ul className={`${LinkStyles}`}>
           {navLinks.map((link) => {
             return (
               <li key={link.name} className="onHover__links">
